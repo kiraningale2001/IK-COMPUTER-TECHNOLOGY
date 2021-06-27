@@ -1,0 +1,489 @@
+*{
+    padding:0px;
+    margin:0px;
+   
+    
+}
+
+html::-webkit-scrollbar{
+    width:1rem;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar-track{
+    background:rgb(7, 65, 112);
+}
+
+html::-webkit-scrollbar-thumb{
+    background:red;
+}
+.navbar{
+    background-color: black;
+    box-shadow: 0 0.3rem 3rem rgba(148, 147, 147, 0.377);
+    color: blanchedalmond;
+    font-size: 1.4rem;
+   width:100%;
+   position: fixed;
+   margin-bottom: 30px;
+    
+}
+nav{
+   
+    font-size: 1.3rem;
+    
+    
+   
+}
+
+nav ul{
+    margin-left: 55rem;
+    display: flex;
+   
+
+}
+nav ul li{
+    list-style: none;
+    padding:15px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    text-transform:capitalize;
+}
+nav ul li a:hover{
+    color: darkgrey;
+}
+.mainpageblock{
+    display: flex;
+}
+
+.mainpage{
+    width:100%;
+    height:90vh;
+    margin-bottom: 0%;
+    background-repeat:no-repeat;
+    color:rgb(8, 5, 5);
+    background: url("./iot.jpg");
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0.3rem 3rem rgb(241, 243, 247);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.mainpage h1{
+    font-size: 3rem;
+    padding: 40px;
+    color: white;
+}
+.mainpage p{
+    padding:10px;
+    color: darkgrey;
+}
+.kmore{
+    padding:10px;
+    margin:25px;
+    width:200px;
+}
+.kmore a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.kmore:hover{
+    padding:12px;
+    background-color: yellow;
+    cursor: pointer;
+}
+.block{
+    display:flex;
+    margin-left: 5rem;
+  
+    
+}
+#showmenu,#closemenu1{
+    display: none;
+}
+
+.options ul{
+    display: none;
+    background-color: white;
+    width:100%;
+    
+    font-size: 1rem;
+    box-shadow: 0 0.3rem 3rem rgba(52, 52, 53, 0.192);
+   
+    margin-left: 10px;
+    border-radius: 35px;
+    margin-top: 80px;
+    animation-name: options;
+    animation: 55m ease-in-out;
+    animation-duration: 500ms;
+    animation-delay: 30ms;
+    z-index: 5;
+    transition: all .50s;
+    overflow: hidden;
+    
+    
+    
+    
+    
+}
+#homebtn{
+    background-color: rgb(69, 69, 230);
+    width:90px;
+    border-radius: 10px;
+}
+.icon i{
+     padding:13px;
+    
+}
+@keyframes options {
+    0%{
+       margin-left: -50px;
+       
+    }
+    100%{
+        margin-left: 10px;
+    }
+    
+    
+}
+.options ul li{
+    list-style: none;
+   
+}
+.options ul li a{
+    margin-top: 15px;
+   font-size: 20px;
+    
+    padding:10px;
+    margin-left: 0px;
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+    
+}
+.options ul li a:hover{
+    color: rgb(241, 14, 14);
+}
+.block .box1, .block .box2, .block .box3{
+    width:400px;
+   
+    border-radius: 20px;
+    box-shadow: 0 0.3rem 3rem rgba(52, 52, 53, 0.192);
+    margin:5px;
+    
+}
+.block .box1 p, .block .box2 p, .block .box3 p{
+    padding:10px;
+}
+.block a{
+    padding:20px;
+   margin-top:50px;
+  
+    
+}
+
+.block .box1 img, .block .box2 img, .block .box3 img{
+    width:400px;
+    height:250px;
+    border-radius: 20px;
+    
+    
+}
+.aboutme{
+    padding:10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 255, 255);
+    
+}
+img{
+    width:100%;
+}
+ td{
+    width:10%;
+    border:1px solid rgb(15, 11, 11);
+    padding:10px;
+}
+th{
+    width:10%;
+    background-color: rgba(128, 128, 128, 0.774);
+    color:white;
+    border:1px solid rgb(22, 14, 14);
+}
+
+.dot h1{
+    font-size: 5rem;
+}
+.contact h1{
+    padding:30px;
+}
+.contact{
+    margin:25px;
+ 
+    width:50wh;
+    border-radius: 20px;
+    
+    box-shadow: 0 0.3rem 3rem rgba(27, 27, 29, 0.192);
+}
+.contact form{
+    text-align: center;
+}
+.contact form input{
+    padding:10px;
+    margin:5px;
+    
+}
+.contact form button{
+    background-color: rgb(55, 55, 209);
+    color:white;
+    padding:10px;
+    margin:10px;
+    width:60vw;
+
+}
+.contact form button:hover{
+    background-color: rgb(96, 96, 209);
+    cursor: pointer;
+}
+
+#logo{
+    float:left;
+    padding:10px;
+    margin-left:40px;
+    
+    border-radius: 25px;
+    background-color: blue;
+    font-size: 29px;
+}
+
+
+footer{
+    background-color: rgb(15, 15, 14);
+    
+    color:cornsilk;
+    padding:10px;
+    font-family:sans-serif;}
+footer p{
+    color: rgb(235, 223, 208);
+    padding:10px;
+    margin:10px;
+}
+footer i{
+    padding:10px;
+    
+}
+#about-page{
+    padding:10px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:10px;
+    letter-spacing: 1.5px;
+}
+
+@media (min-width:200px) and (max-width:400px) {
+    nav ul{
+        display: none;
+    }
+    #logo{
+        float:right;
+        padding:10px;
+        margin:10px;
+        border-radius: 25px;
+        background-color: blue;
+        font-size: 29px;
+    }
+    html{
+        font-size: 75%;
+    }
+    .block{
+       display: grid;
+       margin-left:-2%;
+       width:10%;
+    }
+    .block .box1, .block .box2, .block .box3{
+        width:92vw;
+        
+        border-radius: 20px;
+        box-shadow: 0 0.3rem 3rem rgba(52, 52, 53, 0.192);
+        margin:20px;
+        
+    }
+    .block .box1 img, .block .box2 img, .block .box3 img{
+        width:92vw;
+        height:250px;
+        border-radius: 20px;
+        
+        
+    }
+    .options ul{
+        width:90vw;
+        font-size: 1.6rem;
+       z-index: 3;
+       position: fixed;
+        
+    }
+    .mainpage{
+        width:100%;
+        height:120vh;
+    }
+    #showmenu{
+        display: inline;
+    }
+    
+}
+
+
+/* meadia 400px to 750px*/
+@media (min-width:400px) and (max-width:750px) {
+    nav ul{
+        display: none;
+    }
+    #logo{
+        float:right;
+        padding:10px;
+        margin:10px;
+        border-radius: 25px;
+        background-color: blue;
+        font-size: 29px;
+    }
+    html{
+        font-size: 75%;
+    }
+    .block{
+       display: grid;
+       margin-left:-2%;
+       width:10%;
+    }
+    .block .box1, .block .box2, .block .box3{
+        width:92vw;
+      
+        border-radius: 20px;
+        box-shadow: 0 0.3rem 3rem rgba(52, 52, 53, 0.192);
+        margin:20px;
+        
+    }
+    .block .box1 img, .block .box2 img, .block .box3 img{
+        width:92vw;
+        height:250px;
+        border-radius: 20px;
+        
+        
+    }
+    .options ul{
+        width:90vw;
+        font-size: 2rem;
+        position: fixed;
+        
+    }
+    .mainpage{
+        width:100%;
+        height:120vh;
+    }
+    #showmenu{
+        display: inline;
+    }
+    
+}
+/* meadia 750px to 950px*/
+@media (min-width:750px) and (max-width:950px) {
+    nav ul{
+        display: none;
+    }
+    #logo{
+        float:right;
+        padding:10px;
+        margin:10px;
+        border-radius: 25px;
+        background-color: blue;
+        font-size: 29px;
+    }
+    html{
+        font-size: 75%;
+    }
+    .block{
+       display: grid;
+       margin-left:-2%;
+       width:10%;
+    }
+    .block .box1, .block .box2, .block .box3{
+        width:92vw;
+      
+        border-radius: 20px;
+        box-shadow: 0 0.3rem 3rem rgba(52, 52, 53, 0.192);
+        margin:20px;
+        
+    }
+    .block .box1 img, .block .box2 img, .block .box3 img{
+        width:92vw;
+        height:250px;
+        border-radius: 20px;
+        
+        
+    }
+    .options ul{
+        width:90vw;
+        font-size: 2rem;
+        position: fixed;
+        
+    }
+    .mainpage{
+        width:100%;
+        height:120vh;
+    }
+    #showmenu{
+        display: inline;
+    }
+    
+}
+/* meadia 660px to 950px*/
+@media (min-width:950px) and (max-width:1025px) {
+    
+    html{
+        font-size: 75%;
+    }
+    .block .box1, .block .box2, .block .box3{
+        width:50vw;
+      
+        border-radius: 20px;
+        box-shadow: 0 0.3rem 3rem rgba(52, 52, 53, 0.192);
+        margin:20px;
+        
+    }
+    .block .box1 img, .block .box2 img, .block .box3 img{
+        width:27vw;
+        height:250px;
+        border-radius: 20px;
+        
+        
+    }
+    
+   
+    
+}
+@media (min-width:1025px) and (max-width:1261px) {
+    
+    html{
+        font-size: 75%;
+    }
+    .block .box1, .block .box2, .block .box3{
+        width:50vw;
+      
+        border-radius: 20px;
+        box-shadow: 0 0.3rem 3rem rgba(52, 52, 53, 0.192);
+        margin:20px;
+        
+    }
+    .block .box1 img, .block .box2 img, .block .box3 img{
+        width:27vw;
+        height:250px;
+        border-radius: 20px;
+        
+        
+    }
+    
+   
+    
+}
